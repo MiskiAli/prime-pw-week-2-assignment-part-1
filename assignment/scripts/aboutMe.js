@@ -1,13 +1,13 @@
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
-
+let firstNameVar = 'Miski'; 
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
-
+let lastNameVar = 'Ali';
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
-
+let fullNameVar= 'Miski'+'Ali';
 // 4 - Console log the value of `fullName`
-
+Console.log(let fullNameVar = 'Miski'+'Ali');
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 
 // 6 - Console log this sentence, adding in the variables you created above: 
