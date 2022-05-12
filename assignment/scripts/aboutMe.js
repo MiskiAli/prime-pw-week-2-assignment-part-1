@@ -9,7 +9,7 @@ let fullNameVar= 'Miski '+'Ali';
 // 4 - Console log the value of `fullName`
 console.log ('the value of fullNameVar is:', fullNameVar);
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
-let luckyNumberVar = 22;
+let luckyNumberVar = 3;
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
@@ -85,6 +85,19 @@ console.log(mostPetsVar);
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 
+
+switch (luckyNumberVar) {
+    case 1:
+    console.log("First is the worst");
+    break;
+    case 2:
+    console.log("Second is the best");
+    break;
+    case 3:
+    console.log("Third is the one with the polka dot dress");
+}
+
+
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
-
+console.log ((adventurousVar == true)? "Adventures are great!": "How about we stay home?");
